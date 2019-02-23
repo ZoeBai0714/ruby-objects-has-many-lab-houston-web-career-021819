@@ -7,8 +7,6 @@ class Author
     @posts = []
   end
   
-  def
-  
   
   def add_post(post)
     @posts << post  #add under current author
@@ -24,7 +22,6 @@ class Author
   
   def self.post_count
     Post.all.length
-    #self.posts.length
   end
   
 end
