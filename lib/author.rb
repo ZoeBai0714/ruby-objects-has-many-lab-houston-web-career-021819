@@ -10,8 +10,7 @@ class Author
   
   def add_post(post)
     @posts << post  #add under current author
-   post.author = self
-   #Post.all << post ##add under all the posts
+    post.author = self
   end
   
   def add_post_by_title(post_title)
